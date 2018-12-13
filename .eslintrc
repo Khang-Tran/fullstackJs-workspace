@@ -1,0 +1,41 @@
+{
+  "parser": "babel-eslint",
+  "extends": "google",
+  "plugins": [
+    "react",
+    "jsx-a11y",
+    "import"
+  ],
+  "env": {
+    "node": true,
+    "browser": true
+  },
+  "rules": {
+    "indent": "off",
+    "comma-dangle": "off",
+    "object-curly-spacing": [
+      "error",
+      "always"
+    ],
+    "no-trailing-spaces": "off",
+    "linebreak-style": [
+      "off"
+    ],
+    "semi": [
+      "error",
+      "always"
+    ],
+    "arrow-parens": [
+      "error",
+      "as-needed"
+    ],
+    "require-jsdoc": "off",
+    "quotes": [
+      "error",
+      "single",
+      {
+        "allowTemplateLiterals": true
+      }
+    ]
+  }
+}
