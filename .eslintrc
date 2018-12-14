@@ -1,14 +1,15 @@
 {
   "parser": "babel-eslint",
-  "extends": "google",
-  "plugins": [
-    "react",
-    "jsx-a11y",
-    "import"
-  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "extends": ["google", "react-app"],
   "env": {
     "node": true,
-    "browser": true
+    "browser": true,
+    "es6": true
   },
   "rules": {
     "indent": "off",

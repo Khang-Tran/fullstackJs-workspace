@@ -3,7 +3,6 @@ import GlobalStyles from '../styles/globalStyles';
 import { ThemeProvider } from 'styled-components';
 import theme from '../styles/theme';
 import Routes from './Routes';
-
 const MainContainer = () => (
    <React.Fragment>
       <GlobalStyles/>
